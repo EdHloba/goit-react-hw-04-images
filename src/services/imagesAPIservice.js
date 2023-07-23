@@ -16,8 +16,8 @@ export default class ImagesAPIService {
   }
 
   async fetch() {
-    const fetchResponce = await axios.get(this.makeURL());
-    const { data } = fetchResponce;
+    const fetchResponse = await axios.get(this.makeURL());
+    const { data } = fetchResponse;
 
     this.incrementPage();
 

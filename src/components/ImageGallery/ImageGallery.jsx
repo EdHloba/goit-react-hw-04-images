@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { ToastContainer, toast, Slide } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { Component } from 'react';
+import React ,{ Component } from 'react';
 import ImagesAPIService from 'services/imagesAPIservice';
 import css from './ImageGallery.module.css';
 
